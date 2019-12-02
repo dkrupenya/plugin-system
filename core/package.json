@@ -1,0 +1,29 @@
+{
+  "name": "plugin-system",
+  "version": "1.0.0",
+  "description": "plugin systems",
+  "main": "dist/modules/index.js",
+  "module": "dist/modules/index.es.js",
+  "jsnext:main": "dist/modules/index.es.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitry Krupenya",
+  "license": "MIT",
+  "dependencies": {
+    "preact": "^10.0.5",
+    "systemjs": "^6.1.7"
+  },
+  "devDependencies": {
+    "rollup": "^1.27.8",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-typescript2": "^0.25.2",
+    "rollup-plugin-url": "^3.0.1",
+    "typescript": "^3.7.2"
+  }
+}

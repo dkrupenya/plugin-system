@@ -1,0 +1,23 @@
+{
+  "name": "plugin-b",
+  "version": "1.0.0",
+  "description": "plugin systems",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "author": "Dmitry Krupenya",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^1.27.8",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "rollup-plugin-typescript2": "^0.25.2",
+    "typescript": "^3.7.2"
+  },
+  "peerDependencies": {
+    "preact": "^10.0.5"
+  }
+}
